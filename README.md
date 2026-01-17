@@ -25,9 +25,13 @@ Metrics:
 - Confusion Matrix
 - Classification Report (precision/recall/F1)
 
-## Results (fill after running)
-- Decision Tree Accuracy: [TBD]
-- Random Forest Accuracy: [TBD]
+## Results
+- Decision Tree Accuracy: 97.69%
+- Random Forest Accuracy: 97.98%
+
+The Random Forest slightly outperformed the Decision Tree, particularly on minority classes
+(`good`, `vgood`), with higher overall accuracy and more balanced recall.
+
 
 ## How to Run
 1. Open `car_classification.ipynb`
